@@ -1,9 +1,9 @@
 header img{
-    height: 110px;
+    height: 150px;
 }
 nav a{
     text-decoration: none;
-    color: rgb(62, 83, 54);
+    color: rgb(83, 69, 54);
     font-size:25px;
     padding: 5px 15px;
     font-family: 'aladin';
@@ -14,14 +14,65 @@ header{
     background-color: rgba(255, 250, 224, 0.966);
     color: rgb(0, 0, 0);
     font-size: large;
+    padding: 15px;
+    width: 100%;
+    position: fixed;
 }
-nav a :hover{
-    color: rgb(59, 160, 39);
+nav a:hover{
+    color: rgb(179, 142, 64);
     transition: 0.7s;
     border-radius: 20px 20px 20px 20px;
     padding: 7px 20px;
-    background-color: rgba(195, 248, 218, 0.623);
+    background-color: rgb(252, 255, 203);
 }
 body{
     margin:0;
+}
+.home{
+    height: 800px;
+    background-image: url(p09j0bx8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    font-size:large;
+    background-attachment: fixed;
+}
+.deskhome{
+    width:40%;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-family: 'candal';
+    color:rgb(252, 243, 233)
+}
+.deskhome a{
+    text-decoration: none;
+    color :antiquewhite;
+    background-color:rgb(75, 118, 199);
+    padding : 10px 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    font-family: 'alice';
+}
+.deskhome a:hover{
+    font-family:'alice';
+    color:rgb(20, 34, 116);
+}
+.paragraf {
+    font-family: 'Beth Ellen';
+    color: rgb(220, 239, 255)
+}
+section.project{
+    height: 800px;
+    text-align: center;
+}
+.containerabout{
+    width:50%;
+    margin:auto;
+    padding: 50px 20px;
+    text-align: center;
+    & img{
+        height: 300px;
+        text-align: center;
+        
+    }
 }
